@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body h1 {
+  font-size: 30px;
+  font-family: 'Russo One', sans-serif;
+  color: white;
+  padding-top: 10px;
+}
+body {
+  background-color: darkslategrey;
+  width: 240px;
+  margin: 0 auto;
+}
+
+.format {
+  background-color: rgb(110, 109, 109);
+  padding-left: 10px;
+  width: 240px;
+  border-radius: 18px;
+}
+
+.calc {
+  height: 50px;
+  width: 50px;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  margin-right: 6px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: 'Russo One';
+  font-size: 20px;
+  padding: 0;
+}
+
+.res {
+  background-color: white;
+  height: 50px;
+  display: inline-block;
+  vertical-align: top;
+  width: 110px;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  margin-right: 6px;
+  margin-bottom: 10px;
+  text-align: center;
+  line-height: 12px;
+  font-family: 'Russo One';
+  font-size: 20px;
+  padding: 0;
+}
+
+.btn {
+  height: 50px;
+  width: 50px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(158, 255, 3);
+  border: none;
+  border-radius: 10px;
+  margin-right: 6px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: 'Russo One';
+  font-size: 30px;
+  padding: 0  ;
+}
+
+.Resultat {
+  height: 50px;
+  width: 230px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(251, 151, 0);
+  border: none;
+  border-radius: 10px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: 'Russo One';
+  font-size: 30px;
+  padding: 0  ;
+}
+
+.btn:hover {
+  background-color: rgb(23, 146, 23);
+}
+
+.btn:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.Resultat:hover {
+  background-color: rgb(177, 145, 2);
+}
+
+.Resultat:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
